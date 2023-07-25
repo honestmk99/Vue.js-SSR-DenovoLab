@@ -1,0 +1,77 @@
+.section-profileBreadcrumbs-item {
+    margin-bottom: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+    color: #9da3ae;
+    padding-left: 32px;
+    position: relative;
+}
+
+.section-profileBreadcrumbs-item::after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: url('./../../images/helpers/profileBreadcrumbs/Not-Active.svg');
+}
+
+.section-profileBreadcrumbs-item--not-active {
+    color: #39404d;
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+
+.section-profileBreadcrumbs-item--not-active:after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: url('./../../images/helpers/profileBreadcrumbs/Current.svg');
+}
+
+.section-profileBreadcrumbs-item--active {
+    color: #489651;
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 32px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: left;
+    letter-spacing: 0.03em;
+    text-transform: capitalize;
+}
+
+.section-profileBreadcrumbs-item--active:after {
+    position: absolute;
+    content: '';
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background: url('./../../images/helpers/profileBreadcrumbs/Active.svg');
+}

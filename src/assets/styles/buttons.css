@@ -1,0 +1,103 @@
+.btn-style {
+    border-radius: 8px;
+    border: none;
+    text-align: center;
+}
+
+.white-btn {
+    color: #0f172a;
+    background: #ffffff;
+}
+
+.transparent-btn {
+    color: white;
+    background-color: transparent;
+    box-shadow: 0 0 0 1px inset;
+}
+
+.home-slider {
+    padding: 12px 24px;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+.blue-btn {
+    padding: 12px 24px;
+    background: #003875;
+    border-radius: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #f1f5f9;
+    display: inline-block;
+    border: 0;
+}
+
+.blue-btn:hover {
+    background: #f1f5f9;
+    color: #003875;
+}
+
+.ghost-blue-btn {
+    padding: 12px 24px;
+    gap: 10px;
+    width: 144px;
+    height: 46px;
+    border: 1px solid #003875;
+    border-radius: 8px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    font-feature-settings: 'liga' off;
+    color: #003875;
+    text-decoration: none;
+}
+
+.ghost-btn {
+    border: 1px solid #ffffff;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-feature-settings: 'liga' off;
+    display: inline-block;
+}
+
+.blue-btn:hover,
+.white-btn:hover,
+.ghost-btn:hover {
+    cursor: pointer;
+}
+
+.text-blue-btn {
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 140%;
+    font-feature-settings: 'liga' off;
+    color: #003875;
+    text-decoration: none;
+}
+
+.text-blue-btn:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .ghost-btn {
+        padding: 12px 16px;
+    }
+}
+
+@media (max-width: 375px) {
+    .home-slider {
+        padding: 12px 76px;
+    }
+}

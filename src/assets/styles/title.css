@@ -1,0 +1,51 @@
+h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    font-feature-settings: 'liga' off;
+    color: #0f172a;
+    display: inline-block;
+}
+
+h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    font-feature-settings: 'liga' off;
+    color: #0f172a;
+}
+
+.title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 65px;
+    color: #0f172a;
+}
+
+.subtitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+    font-feature-settings: 'liga' off;
+    color: #0f172a;
+}
+
+.acptitle {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    font-feature-settings: 'liga' off;
+    margin-bottom: 24px;
+    margin-top: 62px;
+    color: #003875;
+}

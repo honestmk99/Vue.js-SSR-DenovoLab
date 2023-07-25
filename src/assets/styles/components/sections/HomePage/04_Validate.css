@@ -1,0 +1,96 @@
+.validateSection {
+    padding-top: 204px;
+}
+
+.validate-card {
+    background: #ffffff;
+    box-shadow: 0px 8px 16px -4px #000c201f;
+    border-radius: 32px;
+    padding: 44px 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+
+.validate-title {
+    font-family: 'Raleway';
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 52.83px;
+    text-align: center;
+    margin: 0;
+}
+
+.validate-section {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.validate-section-card {
+    background-color: #f1f5f9;
+    padding: 32px 16px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 3px 0 -1px inset #003875;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.validate-section-card__title {
+    font-family: 'Raleway';
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+    color: #0f172a;
+}
+
+.validate-section-card__detail {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.validate-padding {
+    padding-bottom: 160px;
+}
+
+@media (max-width: 768px) {
+    .validate-card {
+        padding: 24px 30px;
+        gap: 24px;
+    }
+
+    .validate-padding {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 375px) {
+    .validate-card {
+        padding: 16px;
+        gap: 24px;
+    }
+
+    .validate-title {
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 35px;
+        text-align: left;
+    }
+
+    .validate-section-card__title {
+        font-size: 25px;
+        line-height: 29px;
+    }
+
+    .validate-section {
+        gap: 16px;
+    }
+
+    .validate-padding {
+        padding-bottom: 60px;
+    }
+}

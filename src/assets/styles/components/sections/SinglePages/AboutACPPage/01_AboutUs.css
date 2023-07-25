@@ -1,0 +1,58 @@
+.about-slider-container::before {
+    background-image: linear-gradient(#00000033, #00000033), linear-gradient(#00123480, #00123480),
+        url('../../../../../images/pages/aboutPage/about.jpg');
+}
+
+.about-section-content {
+    padding: 90px 438.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+
+.about-section-title {
+    font-family: 'Raleway';
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 65px;
+    color: white;
+}
+
+.about-section-detail {
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 23px;
+    text-align: center;
+    color: white;
+}
+
+.about-section-button {
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    color: #0f172a;
+    padding: 12px 24px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.about-video::before {
+    background-image: linear-gradient(#00000033, #00000033), linear-gradient(#00123480, #00123480),
+        url('../../../../../images/pages/aboutPage/video.jpg');
+}
+
+@media (max-width: 768px) {
+    .about-section-content {
+        padding: 90px 138.5px;
+    }
+}
+
+@media (max-width: 375px) {
+    .about-section-content {
+        padding: 90px 0px;
+    }
+}

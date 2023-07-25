@@ -1,0 +1,46 @@
+.header {
+    background: #003875;
+}
+
+.header-menu li {
+    list-style: none !important;
+}
+
+.header-menu li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.03em;
+    font-feature-settings: 'liga' off;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.header-menu-link--active {
+    background: #144c89;
+    border-radius: 12px;
+    padding: 8px 12px;
+}
+
+#dropdownMenuButton {
+    color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 65px;
+        height: 70px;
+    }
+}
+
+@media (max-width: 375px) {
+    .icon-Burger {
+        width: 26px !important;
+    }
+}
+
+.icon-Burger {
+    width: 36px;
+}

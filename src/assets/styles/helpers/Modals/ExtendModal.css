@@ -1,0 +1,15 @@
+.amountValue {
+    padding: 12px 12px 12px 24px;
+    gap: 8px;
+    background: #f0f1f5;
+    border-radius: 8px;
+    display: inline-block;
+    width: 115px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #39404d;
+    width: 157px;
+}

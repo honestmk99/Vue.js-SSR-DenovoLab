@@ -1,0 +1,313 @@
+.last-banner {
+    background-image: linear-gradient(92.6deg, rgba(0, 9, 28, 0.7) 0.7%, rgba(0, 9, 28, 0) 125.15%),
+        url('../../../../images/pages/l_banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 24px 40px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.banner-logo {
+    width: 291px;
+}
+
+.last-banner {
+    padding-right: 460px;
+}
+
+.banner-explain {
+    padding: 24px 200px;
+    border-radius: 24px;
+}
+
+.phone-card {
+    padding: 24px 32px;
+}
+
+.benefit-price {
+    display: grid;
+    gap: 48px;
+    grid-template-columns: auto 2fr;
+}
+
+.card-title {
+    padding-left: 234.5px;
+    padding-right: 234.5px;
+}
+
+.acp-benefit-card {
+    padding: 24px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.card-section {
+    gap: 84px;
+}
+
+.acp-title {
+    padding-bottom: 56px;
+    padding-left: 284px;
+    padding-right: 284px;
+}
+
+.quality-banner {
+    padding: 24px 40px;
+}
+
+.quality-banner-image {
+    margin-top: 30px;
+}
+
+.quality-title {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 140%;
+    font-feature-settings: 'liga' off;
+    color: #ffffff;
+    width: 638px;
+}
+
+.section-tablet-table {
+    color: #fff;
+    width: 100%;
+}
+
+.section-tablet-table td {
+    border-bottom: 1px solid #475569;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.section-tablet-black {
+    background: #000;
+    padding-top: 38px;
+    padding-left: 57px;
+    padding-bottom: 53px;
+    padding-right: 40px;
+    margin-bottom: 144px;
+    border-radius: 32px;
+}
+
+.section-tablet-h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+.section-tablet-h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -1.1px;
+    color: #ffffff;
+}
+
+.section-plan-card {
+    padding: 0px 0px 32px;
+    background: #ffffff;
+    border-radius: 16px;
+    text-align: center;
+    border: 1px solid #e8eaf0;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 10;
+    /* width: 280px; */
+}
+
+.section-plan-card-header {
+    padding: 16px 76px;
+    color: #fff;
+    background: #003875;
+    border-radius: 16px 16px 0 0;
+}
+
+.section-plan-card-title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ffffff;
+}
+
+.section-plan-card-size {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    color: #ffffff;
+}
+
+.section-plan-card-notify {
+    margin-top: 24px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #39404d;
+}
+
+.section-plan-card-size span {
+    font-size: 14px;
+}
+
+.section-plan-card:hover {
+    box-shadow: 0px 8px 16px -4px rgba(0, 12, 32, 0.12);
+}
+
+.section-plan-card-list {
+    width: 171px;
+    margin-top: 17px;
+    margin-bottom: 12px;
+    text-align: left;
+    display: inline-block;
+    padding-left: 21px;
+}
+
+.section-plan-card-list li {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #39404d;
+}
+
+.section-plan-card-price {
+    margin-top: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    color: #003875;
+}
+
+.section-plan-card-price span {
+    font-size: 14px;
+}
+
+.special-plan {
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    color: black;
+}
+
+.check-card {
+    background: #ffffff;
+    padding: 24px 32px;
+    gap: 32px;
+    box-shadow: 0px 8px 16px -4px rgba(0, 12, 32, 0.12);
+    border-radius: 24px;
+}
+
+.buy_title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 140%;
+    color: #1e293b;
+}
+
+.banner-explain__sub {
+    padding: 0 115px;
+}
+
+.banner-explain__title {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 47px;
+}
+
+@media (max-width: 768px) {
+    .acp-title {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .card-section {
+        gap: 64px;
+    }
+
+    .acp-benefit-card {
+        padding: 24px 24px;
+    }
+
+    .card-title {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .benefit-price {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .acp-padding {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .phone-card {
+        padding: 24px;
+    }
+
+    .last-banner {
+        padding-right: 0px;
+    }
+
+    .banner-explain {
+        padding: 24px 75px;
+    }
+
+    .banner-explain__sub {
+        padding: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    .acp-title {
+        padding-bottom: 42px;
+    }
+
+    .card-section {
+        gap: 40px;
+    }
+
+    .acp-benefit-card {
+        padding: 24px 16px;
+    }
+
+    .banner-explain {
+        padding: 24px 32px;
+    }
+
+    .banner-explain__title {
+        font-size: 25px;
+        font-weight: 500;
+        line-height: 29px;
+    }
+
+    .special-plan {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+}

@@ -1,0 +1,222 @@
+.slider {
+    position: relative;
+}
+
+.slider::before {
+    content: '# administered by USAC with oversight from the FCC';
+    position: absolute;
+    top: -10px;
+    z-index: 2;
+    background-color: #f8fafc;
+    border-radius: 16px;
+    font-family: 'Raleway';
+    font-weight: 500;
+    text-align: center;
+    color: #003875;
+    box-shadow: 0 8px 16px -4px #000c201f;
+}
+
+.slider::before {
+    left: 0;
+    padding: 10px 14px;
+    font-size: 14px;
+    line-height: 16.44px;
+    width: 235px;
+}
+
+.slider-gap {
+    gap: 20px;
+}
+
+.slider-title {
+    font-weight: 600;
+}
+
+.slider-title {
+    font-size: 55px;
+    line-height: 64.57px;
+}
+
+.home-slider-container {
+    margin: 0 88px;
+}
+
+.home-slider-container::before {
+    background-image: linear-gradient(#000816b2, #000816b2),
+        url('../../../../images/sections/HomePage/01_Slider/mainImage.jpg');
+}
+
+.home-video::before {
+    background-image: linear-gradient(#00123480, #00123480), url('../../../../images/pages/homePage/video.jpg');
+}
+
+.slider-image {
+    gap: 55.5px;
+    padding: 62px 276px;
+}
+
+.slider-button {
+    gap: 30px;
+}
+
+.slider-button {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.slider-bottom {
+    position: absolute;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    align-items: start;
+    box-shadow: 0 8px 16px -4px #000c201f;
+    color: #1e293b;
+}
+
+.slider-bottom {
+    width: 300px;
+    bottom: -20px;
+    right: 0;
+    padding: 24px 16px;
+    gap: 16px;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22.99px;
+}
+
+.slider-content {
+    margin: auto;
+}
+
+.slider-content__status {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 41px;
+}
+
+.slider-content__status__explain:nth-child(n) {
+    width: 203px;
+}
+
+.slider-content__status__count {
+    font-family: 'Lato';
+    font-weight: 600;
+    color: #003875;
+}
+
+.slider-content__status__count {
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.slider-content__status__explain {
+    font-family: 'Raleway';
+    font-weight: 500;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.slider-content__status__explain {
+    font-size: 20px;
+    line-height: 23px;
+}
+
+@media (max-width: 768px) {
+    .home-slider-container {
+        margin: 0;
+    }
+
+    .slider-image {
+        gap: 45px;
+        padding: 62px 53px;
+    }
+
+    .slider-bottom {
+        width: 185px;
+        bottom: -10px;
+        right: -20px;
+        padding: 16px 8px;
+        gap: 8px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.94px;
+    }
+
+    .slider-bottom img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .slider-gap {
+        gap: 35px;
+    }
+}
+
+@media (max-width: 375px) {
+    .slider::before {
+        left: -10px;
+        padding: 8px 12px;
+        font-size: 12px;
+        line-height: 14.09px;
+        width: 199px;
+    }
+
+    .slider-title {
+        font-size: 35px;
+        line-height: 41.09px;
+    }
+
+    .slider-image {
+        gap: 33px;
+        padding: 62px 18px;
+    }
+
+    .slider-button {
+        gap: 16px;
+    }
+
+    .slider-bottom {
+        width: 100%;
+        bottom: -30px;
+        left: 0;
+        padding: 16px 8px;
+        gap: 8px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16.94px;
+        border-radius: 12px;
+        letter-spacing: 0.03rem;
+    }
+
+    .slider-bottom img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .container {
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+
+    .slider-gap {
+        gap: 50px;
+    }
+
+    .slider-content__status__explain:nth-child(n) {
+        width: 87.67px;
+    }
+
+    .slider-content__status__count {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .slider-content__status__explain {
+        font-size: 14px;
+        line-height: 16.44px;
+    }
+}

@@ -1,0 +1,54 @@
+.customProgressBar {
+    position: relative;
+    width: 100px;
+    height: 6px;
+    background: #e8eaf0;
+    border-radius: 100px;
+}
+
+.customProgressBar-red {
+    position: absolute;
+    content: '';
+    left: 0;
+    height: 6px;
+    background: #e11717;
+    border-radius: 100px;
+}
+
+.customProgressBar-green {
+    position: absolute;
+    content: '';
+    left: 0;
+    height: 6px;
+    background: #5dc269;
+    border-radius: 100px;
+}
+
+.customProgressBar-orange {
+    position: absolute;
+    content: '';
+    left: 0;
+    height: 6px;
+    background: #f2ae54;
+    border-radius: 100px;
+}
+
+.customProgressBar-unlimited:after {
+    position: absolute;
+    content: '';
+    background: url('../../../assets/images/pages/Dashboard/DashboardPage/Unlimited_icon.svg');
+    width: 20px;
+    height: 10px;
+    left: -24px;
+    top: 7px;
+}
+
+.customProgressBar-unlimited:before {
+    content: 'Unlimited';
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    color: #489651;
+}

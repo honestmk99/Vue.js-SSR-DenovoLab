@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+.roboto-font {
+    font-family: 'Roboto';
+}
+
+.raleway-font {
+    font-family: 'Raleway';
+}
+
+.thin-600-font {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.basic-400-font {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    letter-spacing: 0.03em;
+}
+
+.basic-500-font {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.basic-600-font {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.lg-600-font {
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 41.09;
+}
+
+.xxl-600-font {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 64.57px;
+}

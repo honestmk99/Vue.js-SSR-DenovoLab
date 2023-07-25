@@ -1,0 +1,66 @@
+.tips_list {
+    margin-bottom: 62px;
+}
+
+.tips_list li::marker {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+    color: #003875;
+}
+
+.tips_list li {
+    margin-bottom: 24px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    font-feature-settings: 'liga' off;
+    color: #0f172a;
+}
+
+.emphasis {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    text-decoration-line: underline;
+    font-feature-settings: 'liga' off;
+    color: #003875;
+}
+
+.afordableSection .emphasis {
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.informer_list {
+    margin-top: 32px;
+    margin-bottom: 24px;
+}
+
+.informer_list li {
+    list-style: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+    font-feature-settings: 'liga' off;
+    color: #0f172a;
+    margin-bottom: 12px;
+    position: relative;
+}
+
+.informer_list li:before {
+    position: absolute;
+    content: '';
+    background: url('../../../../../images/icons/Info.svg');
+    left: -32px;
+    width: 24px;
+    height: 24px;
+}
